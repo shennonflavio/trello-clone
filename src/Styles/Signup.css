@@ -17,14 +17,14 @@ input {
   padding: 5px;
   width: 316px;
   height: 38px;
-  margin-bottom: 17px;
+  margin-bottom: 18px;
 }
 
 input:focus {
   border: royalblue;
 }
 
-.btnLogin {
+button {
   border: none;
   width: 316px;
   height: 35px;
@@ -34,17 +34,22 @@ input:focus {
   color: white;
 }
 
-.mainbox {
+.mainbox2 {
   background: white;
   text-align: center;
+  align-items: center;
   margin: 30px 260px auto;
   padding: 25px 40px;
-  align-items: center;
   justify-content: center;
   width: 400px;
   height: 640px;
   border-radius: 5px;
   box-shadow: 0 0 25px 3px rgb(235, 235, 235);
+}
+
+.signUp {
+  background-color: rgb(8, 156, 73);
+  color: white;
 }
 .svg1 {
   margin-top: 300px;
@@ -60,7 +65,7 @@ input:focus {
   background: url("../img/undraw_mobile_testing_reah.svg") no-repeat;
   background-size: contain;
 }
-.index {
+.index2 {
   display: flex;
 }
 
@@ -69,7 +74,7 @@ input:focus {
     margin-left: 40px;
   }
 
-  .mainbox {
+  .mainbox2 {
     width: 470px;
     height: 710px;
     margin: 0 auto;

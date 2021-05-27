@@ -1,0 +1,74 @@
+h3 {
+  width: 200px;
+}
+h5 {
+  justify-content: left;
+  margin-top: 35px;
+  margin-bottom: 50px;
+  width: 400px;
+}
+input {
+  margin-bottom: 0;
+  margin-right: 5px;
+}
+input:focus {
+  padding-top: 0px;
+}
+button a {
+  background-color: steelblue;
+}
+.btn {
+  color: white;
+  font-weight: bold;
+  background-color: steelblue;
+  height: 40px;
+}
+.indexBox {
+  display: flex;
+  margin: 50px auto;
+  width: 1300px auto;
+  margin-top: 150px;
+  align-items: left;
+  justify-content: center;
+}
+
+.img {
+  width: 710px;
+  height: 550px;
+  background: url("../img/undraw_building_websites_i78t.svg") no-repeat;
+  background-size: cover;
+}
+.linkIndex {
+  color: white;
+  background-color: steelblue;
+}
+.inputIndex {
+  background: transparent;
+  position: relative;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+  input {
+    margin-left: 0px;
+  }
+  button a {
+    margin-left: 30px;
+    width: 250px;
+  }
+
+  .form {
+    width: 350px;
+    margin-top: -60px;
+    margin-left: 0px;
+  }
+
+  .indexBox {
+    display: flex;
+  }
+  .img {
+    display: none;
+  }
+}

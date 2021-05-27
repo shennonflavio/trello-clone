@@ -1,0 +1,24 @@
+.App {
+  height: 100vh;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(245, 245, 245, 1) 56%,
+    rgba(200, 201, 212, 1) 100%
+  );
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    width: 480px;
+    height: 853px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(245, 245, 245, 1) 56%,
+      rgba(200, 201, 212, 1) 100%
+    );
+  }
+}

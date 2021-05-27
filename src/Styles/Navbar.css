@@ -1,12 +1,23 @@
 a {
-    text-decoration: none;
-
+  text-decoration: none;
+  text-shadow: 0px 0px 5px #ccc;
 }
-
+ul {
+  margin-top: 10px;
+}
 li {
-    list-style: none;
-    text-decoration: none;
-    display: inline;
-    margin-right: 25px;
+  font-weight: bold;
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+  margin-right: 5px;
+}
+h2 {
+  font-weight: bold;
+}
+.sign {
+  background-color: rgb(203, 224, 241);
+  padding: 5px;
 
+  border-radius: 5px;
 }
