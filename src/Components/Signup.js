@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-
+import {useLocation} from 'react-router-dom';
 import '../Styles/Signup.css';
 
 
@@ -9,12 +9,19 @@ import '../Styles/Signup.css';
 
 function Signup(){
 
-   const [inputEmail, setInputEmail]= useState('');
-   const [inputName, setInputName] = useState ('');
-   const [inputPassword, setInputPassword]=useState('');
+    const location =  useLocation();
+    console.log(location);
+   
 
-   const signEmail = e =>{
-       setInputEmail(e.target.value);
+   const [inputEmail, setInputEmail]= useState(location.state.inputSignEmail);
+   
+   const [inputName, setInputName] = useState ();
+   const [inputPassword, setInputPassword]=useState();
+
+   const SignEmail = e =>{
+    
+     setInputEmail(e.target.value);
+    
        console.log(inputEmail);
    } 
 
@@ -30,8 +37,10 @@ function Signup(){
 
    const handleClick = () =>{
        console.log(inputEmail,inputName,inputPassword);
+   
    } 
-
+  
+   
 
     return(
 <>
@@ -41,7 +50,7 @@ function Signup(){
            <div className="mainbox2" >
         <h6>Criar sua conta</h6>
         
-        <input onChange={signEmail}  name="user" id="email" type="email" placeholder="Insira o e-mail" value={inputEmail} />
+        <input onChange={SignEmail}  name="user" id="email" type="email" placeholder="Insira o e-mail" value={inputEmail} />
         <input onChange={signName}  name="nome" type="text" placeholder="Digite seu nome" value={inputName}/>
         <input onChange={signPass} name="password" type="password" placeholder="Digite sua senha" value={inputPassword} />
         <button onClick={handleClick} type="submit"  >Continuar</button>
