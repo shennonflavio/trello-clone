@@ -27,7 +27,7 @@ function Login(){
     }
 
  return(
-                <>
+                  <>
                     <h1>Trello Clone</h1>
                     <div className="index">
                             <div className="svg1"></div>
@@ -39,7 +39,7 @@ function Login(){
                             </div>
                             <div className="svg2"></div>
                     </div>
-                </>
+                 </>
             );
 }
 

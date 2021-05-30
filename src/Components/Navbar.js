@@ -1,8 +1,13 @@
 import React from 'react';
 import '../Styles/Navbar.css';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 
 function Navbar() {
+
+
+    const history = useHistory();
+    console.log(history);
+
     return(
         <>
             <nav className="navbar bg-white navbar-transparent">
@@ -10,7 +15,7 @@ function Navbar() {
                      <h2><li><Link to="/">Trello Clone</Link></li></h2>
                 <ul> 
                      <li ><Link to="/Login">Login</Link></li>
-                     <li className="sign" ><Link to="/Signup">Cadastre-se</Link></li> 
+                     <Link to={{pathname:"/Signup", state:{}}}><li className="sign" >Cadastre-se</li> </Link>
                 </ul>
                 </div>
                

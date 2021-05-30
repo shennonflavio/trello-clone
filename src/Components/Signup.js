@@ -14,7 +14,6 @@ function Signup(){
    
 
    const [inputEmail, setInputEmail]= useState(location.state.inputSignEmail);
-   
    const [inputName, setInputName] = useState ();
    const [inputPassword, setInputPassword]=useState();
 
@@ -37,6 +36,9 @@ function Signup(){
 
    const handleClick = () =>{
        console.log(inputEmail,inputName,inputPassword);
+       setInputEmail('');
+       setInputName('');
+       setInputPassword('')
    
    } 
   

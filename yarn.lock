@@ -10027,6 +10027,13 @@
   "resolved" "https://registry.npmjs.org/relateurl/-/relateurl-0.2.7.tgz"
   "version" "0.2.7"
 
+"remask@*":
+  "integrity" "sha512-oRVGV7FWDvL6aOcATa/TPyNs78PUr9F1gn2495/J2A4G1B6mSGWKnZfyyc5hfoqLkpxmUdF2LR/pICR2Ox9Ovw=="
+  "resolved" "https://registry.npmjs.org/remask/-/remask-0.1.0-alpha.5.tgz"
+  "version" "0.1.0-alpha.5"
+  dependencies:
+    "vanilla-masker" "^1.2.0"
+
 "remove-trailing-separator@^1.0.1":
   "integrity" "sha1-wkvOKig62tW8P1jg1IJJuSN52O8="
   "resolved" "https://registry.npmjs.org/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz"
@@ -11879,6 +11886,11 @@
   "integrity" "sha512-NOJ6JZCAWr0zlxZt+xqCHNTEKOsrks2HQd4MqhP1qy4z1SkbEP467eNx6TgDKXMvUOb+OENfJCZwM+16n7fRfw=="
   "resolved" "https://registry.npmjs.org/value-equal/-/value-equal-1.0.1.tgz"
   "version" "1.0.1"
+
+"vanilla-masker@^1.2.0":
+  "integrity" "sha1-woMOnZlKX+zSJhUGR3wnB/5Yl1Y="
+  "resolved" "https://registry.npmjs.org/vanilla-masker/-/vanilla-masker-1.2.0.tgz"
+  "version" "1.2.0"
 
 "vary@^1", "vary@~1.1.2":
   "integrity" "sha1-IpnwLG3tMNSllhsLn3RSShj2NPw="

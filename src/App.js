@@ -23,8 +23,7 @@ function App() {
         <Route  path="/Home" component={Home}/>
         <Route path="/Board" component={Board}/>
         <Route path="/Signup" component={Signup}/>
-        <Route  path="/Login" component={Login}/>
-        
+        <Route  path="/Login" component={Login}/> 
         <Route path="/TeamSettings" component={TeamSettings}/>
         
       </Switch>

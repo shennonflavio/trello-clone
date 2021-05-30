@@ -7,13 +7,7 @@ h5 {
   margin-bottom: 50px;
   width: 400px;
 }
-input {
-  margin-bottom: 0;
-  margin-right: 5px;
-}
-input:focus {
-  padding-top: 0px;
-}
+
 button a {
   background-color: steelblue;
 }
@@ -42,12 +36,18 @@ button a {
   color: white;
   background-color: steelblue;
 }
+.inputIndex:focus {
+  border-bottom: 1px solid black;
+}
 .inputIndex {
   background: transparent;
   position: relative;
+  outline: none;
   border: none;
   border-bottom: 1px solid black;
-  outline: none;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  margin-right: 5px;
 }
 
 @media only screen and (max-width: 600px) {
